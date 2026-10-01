@@ -3,65 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Adem Avşar's web development portfolio">
-    <title>Adem Avşar | Web Developer</title>
+    <meta name="description" content="A dedication page honoring Grace Murray Hopper, computer pioneer and U.S. Navy rear admiral.">
+    <title>Grace Hopper | Code, Courage, Curiosity</title>
     <link rel="stylesheet" href="stylesheet/portfolio.css">
 </head>
 <body>
-    <header class="Navbar" aria-label="Main navigation">
-        <a class="active" href="#Home">Home</a>
-        <a href="#About">About</a>
-        <a href="#GitHub">GitHub</a>
-        <a href="#Contact">Contact</a>
+    <header class="site-header">
+        <a class="brand" href="#home">GRACE <span>HOPPER</span></a>
+        <nav aria-label="Main navigation">
+            <a href="#about">About</a>
+            <a href="#early-life">Early Life</a>
+            <a href="#career">Career</a>
+            <a href="#retirement">Retirement</a>
+            <a href="#news">News</a>
+        </nav>
     </header>
+
     <main>
-        <section id="Home" class="hero" aria-label="Introduction">
-            <video autoplay muted loop playsinline id="Typing_Video" aria-hidden="true">
-                <source src="images/video/Typing.mp4" type="video/mp4">
-            </video>
-            <div class="Video_Text">
-                <p class="eyebrow">Hello, I’m</p>
-                <h1>Adem Avşar</h1>
-                <p class="hero-subtitle">A curious developer turning thoughtful ideas into useful digital experiences.</p>
-                <a class="button button-light" href="#About">Explore my work</a>
+        <section id="home" class="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <p class="kicker">A dedication to a computing pioneer</p>
+                <h1>She taught the world<br><em>to think in code.</em></h1>
+                <p class="hero-intro">Grace Murray Hopper broke barriers in mathematics, military service, and software engineering—then spent a lifetime inviting others to do the same.</p>
+                <a class="scroll-link" href="#about">Discover her story <span>↓</span></a>
+            </div>
+            <div class="hero-year">1906—1992</div>
+        </section>
+
+        <section id="about" class="intro section-shell">
+            <div class="portrait-wrap">
+                <img src="images/grace-hopper.jpg" alt="Official portrait of Rear Admiral Grace Murray Hopper">
+                <p class="photo-credit">U.S. Navy portrait, 1984 · Public domain</p>
+            </div>
+            <div class="intro-copy">
+                <p class="section-label">The woman behind the legacy</p>
+                <h2>Grace Murray Hopper</h2>
+                <p class="lead">Computer scientist. Navy rear admiral. Relentless teacher.</p>
+                <p>Grace Hopper helped make computers more accessible and more powerful. Her work on early compilers helped prove that programming could move beyond machine instructions and toward languages people could read. She also served the United States Navy across decades of technological change.</p>
+                <blockquote>“The most dangerous phrase in the language is, ‘We've always done it this way.’”</blockquote>
             </div>
         </section>
-        <section class="Row section-light" id="About">
-            <div class="Column_2 image-panel"><img src="images/html_custom.png" alt="Abstract HTML and CSS code illustration"></div>
-            <div class="Column_1">
-                <p class="eyebrow accent">A little about me</p>
-                <h2>Building with purpose</h2>
-                <p>I’m a front-end developer who enjoys making the web feel clearer, friendlier, and more human. I like taking a rough idea, asking the right questions, and shaping it into an experience that people can use with confidence.</p>
-                <p>My toolkit includes HTML, CSS, JavaScript, responsive design, and a growing curiosity about accessible product development. Away from the keyboard, I’m usually exploring a new neighborhood, collecting coffee shop recommendations, or sketching interface ideas.</p>
-                <a class="text-link" href="#Contact">Let’s connect <span aria-hidden="true">→</span></a>
+
+        <section id="early-life" class="info-section section-shell">
+            <div class="section-heading"><span>01</span><h2>Early Life &amp; Education</h2></div>
+            <article class="info-tile">
+                <p>Born in New York City in 1906, Grace Brewster Murray was curious from the start. As a child, she took apart household clocks to understand how they worked. That instinct—to question, test, and rebuild—became a defining part of her life.</p>
+                <p>She earned a bachelor's degree in mathematics and physics from Vassar College in 1928, followed by a master's degree and Ph.D. in mathematics from Yale University. Her academic path was unusual for a woman of her era, and it prepared her to teach and lead in fields that were still taking shape.</p>
+            </article>
+        </section>
+
+        <section id="career" class="info-section navy-section section-shell">
+            <div class="section-heading"><span>02</span><h2>Career &amp; Code</h2></div>
+            <div class="tile-grid">
+                <article class="info-tile"><h3>Programming the future</h3><p>During World War II, Hopper joined the U.S. Navy Reserve and worked with the Mark I computer at Harvard. She later helped develop FLOW-MATIC, one of the first English-language data-processing languages, and contributed to COBOL.</p></article>
+                <article class="info-tile"><h3>The first “bug”</h3><p>In 1947, her team found a moth trapped in a relay of the Mark II. They taped it into their logbook and recorded the “first actual case of bug being found.” The story became a lasting symbol for debugging.</p></article>
+                <article class="info-tile"><h3>Making ideas usable</h3><p>Hopper believed computers should serve people, not the other way around. By pushing for compilers and readable programming languages, she helped move computing from specialized hardware rooms into everyday institutions.</p></article>
             </div>
         </section>
-        <section class="Row section-dark" id="GitHub">
-            <div class="Column_1">
-                <p class="eyebrow">Selected playground</p>
-                <h2>Code, learn, repeat</h2>
-                <p>My GitHub is where experiments become small, working projects. You’ll find practice builds, front-end explorations, and notes from the process of learning in public.</p>
-                <a class="button button-coral" href="https://github.com/the-tech-academy" target="_blank" rel="noopener">Visit GitHub <span aria-hidden="true">↗</span></a>
-            </div>
-            <div class="Column_2 image-panel github-panel"><a href="https://github.com/the-tech-academy" target="_blank" rel="noopener"><img src="images/GitHub.png" alt="GitHub logo linking to the project profile"></a></div>
+
+        <section id="retirement" class="info-section section-shell">
+            <div class="section-heading"><span>03</span><h2>Retirement, Reimagined</h2></div>
+            <article class="info-tile wide-tile">
+                <p>Grace Hopper's service did not follow a straight line. She retired from the Naval Reserve in 1966, was recalled to active duty in 1967, and continued advising, teaching, and advocating for standards. She finally retired from the Navy in 1986 at age 79 as a rear admiral and the oldest serving commissioned officer in the United States military.</p>
+                <p>Retirement only widened her audience. She travelled widely to speak with students, engineers, and military leaders, sharing practical lessons about experimentation, leadership, and the courage to start before everything is perfect.</p>
+            </article>
         </section>
-        <section class="Row section-light" id="Contact">
-            <div class="Column_2 image-panel contact-panel">
-                <img src="images/html_custom.png" alt="Colorful code symbols illustration">
-                <div class="contact-note">Have an idea?<br><strong>Let’s make it real.</strong></div>
-            </div>
-            <div class="Column_1 Column_tall">
-                <p class="eyebrow accent">Start a conversation</p>
-                <h2>Contact</h2>
-                <form action="#" method="post">
-                    <label for="Name">Name</label><input type="text" id="Name" name="Name" placeholder="Your name" required>
-                    <label for="Email">Email</label><input type="email" id="Email" name="Email" placeholder="you@example.com" required>
-                    <label for="Message">Message</label><textarea id="Message" name="Message" placeholder="Tell me a little about your project" rows="4" required></textarea>
-                    <button type="submit">Send message <span aria-hidden="true">→</span></button>
-                </form>
+
+        <section class="post-retirement section-shell">
+            <div><p class="section-label">04 · Post-retirement</p><h2>A legacy still<br><em>in motion.</em></h2></div>
+            <div><p>Hopper continued to teach and inspire until her death on January 1, 1992. Her honors included the Presidential Medal of Freedom, awarded posthumously in 2016. Today, her name lives on in scholarships, conferences, naval vessels, and every person who chooses curiosity over convention.</p><p class="signature">Keep going.<br><strong>Keep asking why.</strong></p></div>
+        </section>
+
+        <section id="news" class="news-section section-shell">
+            <div class="section-heading"><span>05</span><h2>News &amp; In Her Own Words</h2></div>
+            <div class="video-card">
+                <div class="video-copy"><p class="section-label">Watch the archive</p><h3>Grace Hopper on the future of computers</h3><p>In this 1982 lecture, Hopper discussed the future of computing, the importance of experimentation, and the responsibility to make technology understandable.</p></div>
+                <div class="video-frame"><iframe src="https://www.youtube.com/embed/ZCkswdK-3Lc" title="Captain Grace Hopper in 1982 on the Future of Computers" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
             </div>
         </section>
     </main>
-    <footer><p>© 2026 Adem Avşar <span aria-hidden="true">·</span> Designed and coded with care.</p></footer>
+
+    <footer><p>Created in honor of Grace Murray Hopper · <a href="https://commons.wikimedia.org/wiki/File:Grace_Hopper.jpg" target="_blank" rel="noopener">Portrait source</a> · <a href="https://www.history.navy.mil/content/history/nhhc/research/library/research-guides/modern-biographical-files-1335/grace-m-hopper.html" target="_blank" rel="noopener">U.S. Navy biography</a></p></footer>
 </body>
 </html>

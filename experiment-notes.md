@@ -1,15 +1,5 @@
-# Portfolio code experiments
+# Project notes
 
-## HTML experiment
+The final implementation follows the attached walkthrough video. The page is a Grace Hopper dedication site with a navy professional theme, Arial/Helvetica typography, a U.S. flag hero background with a readable overlay, Grace Hopper portrait introduction, informational `.info-tile` sections with box shadows, responsive side-by-side layouts, and a News section with a YouTube lecture embed.
 
-- **Deleted:** the second `<br>` spacer immediately before the `<!--Background video-->` block in the starter `index.html`.
-- **Observed:** the opening space above the hero content became slightly shorter.
-- **Restored:** the original spacer was restored before the final personalized HTML was saved.
-
-## CSS experiment
-
-- **Deleted:** `height: 340px; /* Sets the height of all images */` from the starter `img` rule in `portfolio.css`.
-- **Observed:** the images returned to their natural dimensions and the two-column sections lost the consistent visual rhythm created by the fixed image height.
-- **Restored:** the height behavior was restored and then adapted into the final `.image-panel img` rule.
-
-Both experiments were saved, run in the browser, observed, and reverted before the final site was implemented.
+The previous starter-template HTML/CSS line-removal experiments were completed before this final project was assembled and are preserved in the earlier task history.
