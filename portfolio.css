@@ -19,7 +19,7 @@ a { color: inherit; }
 nav { display: flex; flex-wrap: wrap; gap: .3rem; justify-content: flex-end; }
 nav a { border-bottom: 2px solid transparent; font-size: .7rem; font-weight: 700; letter-spacing: .1em; padding: .4rem .7rem; text-decoration: none; text-transform: uppercase; transition: border-color .2s, color .2s; }
 nav a:hover { border-color: var(--red); color: #f2c387; }
-.hero { align-items: center; background-color: var(--navy); background-image: url('../images/us-flag.png'); background-position: center; background-repeat: no-repeat; background-size: contain; color: white; display: flex; min-height: 73vh; overflow: hidden; padding: 8rem 9vw; position: relative; }
+.hero { align-items: center; background-color: var(--navy); background-image: url('../images/us-flag.png'); background-position: center; background-repeat: no-repeat; background-size: 100% 100%; color: white; display: flex; min-height: 73vh; overflow: hidden; padding: 8rem 9vw; position: relative; }
 .hero-overlay { background: linear-gradient(90deg, rgba(7,26,47,.96), rgba(7,26,47,.78), rgba(7,26,47,.38)); inset: 0; position: absolute; }
 .hero-content { max-width: 760px; position: relative; z-index: 1; }
 .kicker, .section-label { color: #e8b36f; font-size: .7rem; font-weight: 800; letter-spacing: .2em; margin: 0 0 1rem; text-transform: uppercase; }
@@ -35,7 +35,7 @@ h3 { font-size: 1.25rem; }
 .section-shell { margin: auto; max-width: 1180px; padding: 6.5rem 7vw; }
 .intro { align-items: center; display: grid; gap: 6vw; grid-template-columns: minmax(220px, .75fr) 1.25fr; }
 .portrait-wrap { align-self: start; max-width: 360px; width: 100%; }
-.portrait-wrap img { background: var(--navy); border: 9px solid var(--white); box-shadow: 14px 14px 0 var(--red), 0 20px 35px rgba(7,26,47,.2); display: block; filter: grayscale(100%); height: auto; max-width: 100%; object-fit: contain; transition: filter .35s, transform .35s; width: 100%; }
+.portrait-wrap img { background: var(--navy); border: 9px solid var(--white); box-shadow: 14px 14px 0 var(--red), 0 20px 35px rgba(7,26,47,.2); display: block; filter: none; height: auto; max-width: 100%; object-fit: contain; transition: filter .35s, transform .35s; width: 100%; }
 .portrait-wrap img:hover { filter: grayscale(0); transform: translateY(-5px); }
 .photo-credit { color: var(--muted); font-size: .7rem; margin: 1.3rem 0 0; }
 .intro-copy .section-label, .post-retirement .section-label { color: var(--red); }
