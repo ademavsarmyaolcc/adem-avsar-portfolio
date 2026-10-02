@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">HTML and CSS learning lab preview</title>
+  <desc id="desc">A dark code editor inspired preview with HTML and CSS snippets.</desc>
+  <rect width="1200" height="700" fill="#071a2f"/>
+  <rect x="0" y="0" width="1200" height="64" fill="#102e4a"/>
+  <circle cx="34" cy="32" r="9" fill="#ba3645"/><circle cx="62" cy="32" r="9" fill="#e8b36f"/><circle cx="90" cy="32" r="9" fill="#5fa7d7"/>
+  <text x="140" y="39" font-family="Arial, sans-serif" font-size="22" fill="#fffdf8" font-weight="700">HTML / CSS LEARNING LAB</text>
+  <rect x="58" y="120" width="520" height="500" rx="8" fill="#0e2942" stroke="#315574" stroke-width="2"/>
+  <rect x="622" y="120" width="520" height="500" rx="8" fill="#fffdf8"/>
+  <text x="92" y="172" font-family="monospace" font-size="24" fill="#e8b36f">&lt;section&gt;</text>
+  <text x="92" y="224" font-family="monospace" font-size="24" fill="#78bce0">&lt;h1&gt;</text><text x="190" y="224" font-family="monospace" font-size="24" fill="#fffdf8">Practice</text><text x="300" y="224" font-family="monospace" font-size="24" fill="#78bce0">&lt;/h1&gt;</text>
+  <text x="92" y="276" font-family="monospace" font-size="24" fill="#78bce0">&lt;p&gt;</text><text x="160" y="276" font-family="monospace" font-size="24" fill="#fffdf8">Build. Test. Improve.</text>
+  <text x="92" y="328" font-family="monospace" font-size="24" fill="#78bce0">&lt;/p&gt;</text>
+  <text x="92" y="380" font-family="monospace" font-size="24" fill="#e8b36f">&lt;/section&gt;</text>
+  <rect x="678" y="176" width="408" height="88" rx="10" fill="#071a2f"/><text x="726" y="230" font-family="Arial, sans-serif" font-size="32" fill="#e8b36f" font-weight="700">Practice builds skill.</text>
+  <rect x="678" y="314" width="408" height="14" rx="7" fill="#ba3645"/><rect x="678" y="356" width="330" height="14" rx="7" fill="#9db1c2"/><rect x="678" y="398" width="370" height="14" rx="7" fill="#9db1c2"/>
+  <rect x="678" y="482" width="150" height="48" rx="24" fill="#e8b36f"/><text x="716" y="513" font-family="Arial, sans-serif" font-size="18" fill="#071a2f" font-weight="700">EXPLORE</text>
+</svg>
