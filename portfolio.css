@@ -19,9 +19,10 @@ a { color: inherit; }
 nav { display: flex; flex-wrap: wrap; gap: .3rem; justify-content: flex-end; }
 nav a { border-bottom: 2px solid transparent; font-size: .7rem; font-weight: 700; letter-spacing: .1em; padding: .4rem .7rem; text-decoration: none; text-transform: uppercase; transition: border-color .2s, color .2s; }
 nav a:hover { border-color: var(--red); color: #f2c387; }
-.hero { align-items: center; background-color: var(--navy); background-image: url('../images/us-flag.png'); background-position: center; background-repeat: no-repeat; background-size: 100% 100%; color: white; display: flex; min-height: 73vh; overflow: hidden; padding: 8rem 9vw; position: relative; }
-.hero-overlay { background: linear-gradient(90deg, rgba(7,26,47,.96), rgba(7,26,47,.78), rgba(7,26,47,.38)); inset: 0; position: absolute; }
-.hero-content { max-width: 760px; position: relative; z-index: 1; }
+.hero { align-items: center; background: var(--navy); color: white; display: flex; min-height: 73vh; overflow: hidden; padding: 8rem 9vw; position: relative; }
+.flag-background { height: 100%; inset: 0; object-fit: fill; position: absolute; width: 100%; z-index: 0; }
+.hero-overlay { background: linear-gradient(90deg, rgba(7,26,47,.96), rgba(7,26,47,.78), rgba(7,26,47,.38)); inset: 0; position: absolute; z-index: 1; }
+.hero-content { max-width: 760px; position: relative; z-index: 3; }
 .kicker, .section-label { color: #e8b36f; font-size: .7rem; font-weight: 800; letter-spacing: .2em; margin: 0 0 1rem; text-transform: uppercase; }
 h1, h2, h3 { font-family: Arial, Helvetica, sans-serif; line-height: 1.08; margin: 0; }
 h1 { font-size: clamp(3rem, 7vw, 6.5rem); letter-spacing: -.05em; }
@@ -31,7 +32,7 @@ h3 { font-size: 1.25rem; }
 .hero-intro { font-size: clamp(1.05rem, 2vw, 1.35rem); margin: 2rem 0; max-width: 620px; }
 .scroll-link { border-bottom: 1px solid #e8b36f; color: white; display: inline-flex; font-size: .75rem; font-weight: 800; gap: .8rem; letter-spacing: .12em; padding-bottom: .35rem; text-decoration: none; text-transform: uppercase; }
 .scroll-link span { color: #e8b36f; font-size: 1.2rem; line-height: .8; }
-.hero-year { bottom: 4rem; color: rgba(255,255,255,.55); font-size: .75rem; letter-spacing: .2em; position: absolute; right: 8vw; transform: rotate(-90deg); }
+.hero-year { bottom: 4rem; color: rgba(255,255,255,.55); font-size: .75rem; letter-spacing: .2em; position: absolute; right: 8vw; transform: rotate(-90deg); z-index: 2; }
 .section-shell { margin: auto; max-width: 1180px; padding: 6.5rem 7vw; }
 .intro { align-items: center; display: grid; gap: 6vw; grid-template-columns: minmax(220px, .75fr) 1.25fr; }
 .portrait-wrap { align-self: start; max-width: 360px; width: 100%; }
