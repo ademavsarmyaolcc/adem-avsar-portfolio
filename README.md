@@ -1,49 +1,50 @@
-# Adem Avşar Portfolio
+# Adem Avşar — Portfolio Website
 
-A responsive personal portfolio website for **Adem Avşar**, built with semantic HTML and custom CSS.
+A responsive portfolio website introducing Adem Avşar and showcasing selected learning projects. It is built with semantic HTML, custom CSS, and vanilla JavaScript.
 
-## What the page includes
+## Features
 
-- A personalized hero section with Adem Avşar’s name and developer introduction
-- An **About** section describing Adem’s learning goals and approach
-- A **Skills** section covering HTML, CSS, responsive design, Git/GitHub, debugging, and continuous learning
-- A **Selected Projects** section with project descriptions, technologies used, repository links, and visual previews
-- A contact section linking to Adem’s GitHub profile
-- Responsive layouts, hover effects, accessible labels, and mobile-friendly navigation
+- Responsive single-page layout with Home, About, Skills, Projects, and Contact sections.
+- Accessible mobile navigation with an `aria-expanded` state, Escape-key support, and keyboard focus styling.
+- JavaScript-updated copyright year.
+- Responsive project cards and image previews for the Grace Hopper Dedication Page and HTML & CSS Learning Lab.
+- No frameworks, build tools, or external runtime dependencies.
 
-## Selected projects
+## Technologies
 
-### Grace Hopper Dedication Page
-A responsive tribute page built with HTML and CSS. It uses a structured single-page layout, a navy/red/cream visual system, responsive sections, accessible image text, and a video embed.
-
-### HTML & CSS Learning Lab
-A practice project focused on understanding spacing, typography, color, image sizing, hover effects, and responsive behavior.
+- **HTML:** semantic structure, accessible navigation, content, and links.
+- **CSS:** responsive layouts, custom color system, typography, hover states, and focus states.
+- **JavaScript:** mobile navigation behavior and current-year display.
 
 ## Run locally
 
-No build tools are required. From the project folder, start a local server:
+From this directory, start a local web server:
 
 ```bash
 python3 -m http.server 8000
 ```
 
-Then open `http://localhost:8000/index.html` in a browser.
+Open <http://localhost:8000> in a browser.
 
 ## Project structure
 
 ```text
-index.html                    Personal portfolio homepage
-stylesheet/portfolio.css      Responsive layout and visual styles
-images/project-grace-hopper.webp  Project screenshot
-images/project-lab.svg        HTML/CSS learning lab preview
-images/grace-hopper.jpg       Grace Hopper project image
-images/us-flag.png            Portfolio background accent
-experiment-notes.md           Notes from the requested reversible experiments
+index.html                        Portfolio homepage
+stylesheet/portfolio.css          Responsive site styles
+scripts/portfolio.js              Mobile menu and copyright-year behavior
+images/project-grace-hopper.webp  Grace Hopper project preview
+images/project-lab.svg             HTML/CSS Learning Lab preview
+images/grace-hopper.jpg            Supporting project image
+images/us-flag.png                 Hero background accent
+experiment-notes.md                Reversible experiment notes
 ```
+
+## Selected projects
+
+- **Grace Hopper Dedication Page** — a responsive HTML and CSS tribute site about Grace Murray Hopper, using a navy, red, and cream visual system.
+- **HTML & CSS Learning Lab** — a collection of practice experiments with spacing, typography, color, image sizing, hover effects, and responsive behavior.
+- **JavaScript course projects** — Tic Tac Toe and Pizza Drill are documented in the [JavaScript-Projects repository](https://github.com/ademavsarmyaolcc/JavaScript-Projects).
 
 ## Author
 
-Prepared for **Adem Avşar**.
-
-- GitHub: https://github.com/ademavsarmyaolcc
-- Repository: https://github.com/ademavsarmyaolcc/adem-avsar-portfolio
+**Adem Avşar** · [GitHub profile](https://github.com/ademavsarmyaolcc) · [Portfolio repository](https://github.com/ademavsarmyaolcc/adem-avsar-portfolio)

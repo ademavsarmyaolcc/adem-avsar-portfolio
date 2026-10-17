@@ -20,6 +20,9 @@ a { color: inherit; }
 nav { display: flex; flex-wrap: wrap; gap: .3rem; justify-content: flex-end; }
 nav a { border-bottom: 2px solid transparent; font-size: .7rem; font-weight: 700; letter-spacing: .1em; padding: .4rem .7rem; text-decoration: none; text-transform: uppercase; transition: border-color .2s, color .2s; }
 nav a:hover { border-color: var(--red); color: var(--gold); }
+.menu-toggle { background: transparent; border: 1px solid var(--gold); color: var(--white); cursor: pointer; font: inherit; font-size: .72rem; font-weight: 800; letter-spacing: .12em; padding: .55rem .8rem; text-transform: uppercase; }
+.menu-toggle:focus-visible, nav a:focus-visible, .button:focus-visible, .text-link:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; }
+.menu-toggle[hidden] { display: none; }
 .hero { align-items: center; background: var(--navy); color: white; display: flex; min-height: 73vh; overflow: hidden; padding: 8rem 9vw; position: relative; }
 .flag-background { height: 100%; inset: 0; object-fit: cover; opacity: .34; position: absolute; width: 100%; z-index: 0; }
 .hero-overlay { background: linear-gradient(90deg, rgba(7,26,47,.98), rgba(7,26,47,.82), rgba(7,26,47,.42)); inset: 0; position: absolute; z-index: 1; }
@@ -72,13 +75,19 @@ footer { background: #04101e; color: #b9c6d2; font-size: .75rem; padding: 1.5rem
 footer a { color: var(--gold); }
 @media (max-width: 800px) {
     .site-header { align-items: flex-start; flex-direction: column; gap: .8rem; }
+    .menu-toggle { display: block; }
     nav { justify-content: flex-start; }
+    body.js-enabled nav { display: none; }
+    body.js-enabled nav.is-open { display: flex; }
     .hero { min-height: 78vh; padding: 7rem 7vw; }
     .hero-mark { display: none; }
     .about, .contact-section { grid-template-columns: 1fr; }
     .initial-card { margin: auto; max-width: 330px; }
     .skills-grid, .project-grid { grid-template-columns: 1fr; }
     .section-shell { padding-left: 7vw; padding-right: 7vw; }
+}
+@media (min-width: 801px) {
+    .menu-toggle { display: none; }
 }
 @media (max-width: 480px) {
     nav a { font-size: .62rem; padding: .3rem .4rem; }
